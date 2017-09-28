@@ -1,0 +1,853 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Animation card</title>
+        <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
+        <script
+                src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+                integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
+                crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="assets/css/style.css">
+    </head>
+    <body>
+
+        <div id="cards">
+
+            <div class="maincard">.
+                <div class="maincard__item maincard__item--front front"></div>
+                <div class="maincard__item maincard__item--back back">
+                    <div class="card six">
+                        <div class="corner top">
+                            <span class="number">6</span>
+                            <span>♣</span>
+                        </div>
+
+                        <span class="suit top_left">♣</span>
+                        <span class="suit top_right">♣</span>
+                        <span class="suit middle_left">♣</span>
+                        <span class="suit middle_right">♣</span>
+                        <span class="suit bottom_left">♣</span>
+                        <span class="suit bottom_right">♣</span>
+
+                        <div class="corner bottom">
+                            <span class="number">6</span>
+                            <span>♣</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="maincard">
+                <div class="maincard__item maincard__item--front front"></div>
+                <div class="maincard__item maincard__item--back back">
+                    <div class="card seven">
+                        <div class="corner top">
+                            <span class="number">7</span>
+                            <span>♣</span>
+                        </div>
+
+                        <span class="suit top_left">♣</span>
+                        <span class="suit top_right">♣</span>
+                        <span class="suit middle_left">♣</span>
+                        <span class="suit middle_top">♣</span>
+                        <span class="suit middle_right">♣</span>
+                        <span class="suit bottom_left">♣</span>
+                        <span class="suit bottom_right">♣</span>
+
+                        <div class="corner bottom">
+                            <span class="number">7</span>
+                            <span>♣</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="maincard">
+                <div class="maincard__item maincard__item--front front"></div>
+                <div class="maincard__item maincard__item--back back">
+                    <div class="card eight">
+                        <div class="corner top">
+                            <span class="number">8</span>
+                            <span>♣</span>
+                        </div>
+
+                        <span class="suit top_left">♣</span>
+                        <span class="suit top_right">♣</span>
+                        <span class="suit middle_left">♣</span>
+                        <span class="suit middle_top">♣</span>
+                        <span class="suit middle_right">♣</span>
+                        <span class="suit middle_bottom">♣</span>
+                        <span class="suit bottom_left">♣</span>
+                        <span class="suit bottom_right">♣</span>
+
+                        <div class="corner bottom">
+                            <span class="number">8</span>
+                            <span>♣</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="maincard">
+                <div class="maincard__item maincard__item--front front"></div>
+                <div class="maincard__item maincard__item--back back">
+                    <div class="card nine">
+                        <div class="corner top">
+                            <span class="number">9</span>
+                            <span>♣</span>
+                        </div>
+
+                        <span class="suit top_left">♣</span>
+                        <span class="suit top_right">♣</span>
+
+                        <span class="suit middle_top_left">♣</span>
+                        <span class="suit middle_center">♣</span>
+                        <span class="suit middle_top_right">♣</span>
+                        <span class="suit bottom_left">♣</span>
+                        <span class="suit bottom_right">♣</span>
+                        <span class="suit middle_bottom_left">♣</span>
+                        <span class="suit middle_bottom_right">♣</span>
+
+                        <div class="corner bottom">
+                            <span class="number">9</span>
+                            <span>♣</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="maincard">
+                <div class="maincard__item maincard__item--front front"></div>
+                <div class="maincard__item maincard__item--back back">
+                    <div class="card ten">
+                        <div class="corner top">
+                            <span class="number">10</span>
+                            <span>♣</span>
+                        </div>
+
+                        <span class="suit top_left">♣</span>
+                        <span class="suit top_right">♣</span>
+
+                        <span class="suit middle_top_left">♣</span>
+                        <span class="suit middle_top_center">♣</span>
+                        <span class="suit middle_top_right">♣</span>
+                        <span class="suit bottom_left">♣</span>
+                        <span class="suit bottom_right">♣</span>
+                        <span class="suit middle_bottom_center">♣</span>
+                        <span class="suit middle_bottom_left">♣</span>
+                        <span class="suit middle_bottom_right">♣</span>
+
+                        <div class="corner bottom">
+                            <span class="number">10</span>
+                            <span>♣</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="maincard">
+                <div class="maincard__item maincard__item--front front"></div>
+                <div class="maincard__item maincard__item--back back">
+                    <div class="card jack">
+                        <div class="corner top">
+                            <span class="number">J</span>
+                            <span>♣</span>
+                        </div>
+
+                        <span class="suit middle_center">♣</span>
+
+                        <div class="corner bottom">
+                            <span class="number">J</span>
+                            <span>♣</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="maincard">
+                <div class="maincard__item maincard__item--front front"></div>
+                <div class="maincard__item maincard__item--back back">
+                    <div class="card queen">
+                        <div class="corner top">
+                            <span class="number">Q</span>
+                            <span>♣</span>
+                        </div>
+
+                        <span class="suit middle_center">♣</span>
+
+                        <div class="corner bottom">
+                            <span class="number">Q</span>
+                            <span>♣</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="maincard">
+                <div class="maincard__item maincard__item--front front"></div>
+                <div class="maincard__item maincard__item--back back">
+                    <div class="card king">
+                        <div class="corner top">
+                            <span class="number">K</span>
+                            <span>♣</span>
+                        </div>
+
+                        <span class="suit middle_center">♣</span>
+
+                        <div class="corner bottom">
+                            <span class="number">K</span>
+                            <span>♣</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="maincard">
+                <div class="maincard__item maincard__item--front front"></div>
+                <div class="maincard__item maincard__item--back back">
+                    <div class="card ace">
+                        <div class="corner top">
+                            <span class="number">A</span>
+                            <span>♣</span>
+                        </div>
+
+                        <span class="suit middle_center">♣</span>
+
+                        <div class="corner bottom">
+                            <span class="number">A</span>
+                            <span>♣</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="maincard">
+                <div class="maincard__item maincard__item--front front"></div>
+                <div class="maincard__item maincard__item--back back">
+                    <div class="card diamond six">
+                        <div class="corner top">
+                            <span class="number">6</span>
+                            <span>♦</span>
+                        </div>
+
+                        <span class="suit top_left">♦</span>
+                        <span class="suit top_right">♦</span>
+                        <span class="suit middle_left">♦</span>
+                        <span class="suit middle_right">♦</span>
+                        <span class="suit bottom_left">♦</span>
+                        <span class="suit bottom_right">♦</span>
+
+                        <div class="corner bottom">
+                            <span class="number">6</span>
+                            <span>♦</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="maincard">
+                <div class="maincard__item maincard__item--front front"></div>
+                <div class="maincard__item maincard__item--back back">
+                    <div class="card diamond seven">
+                        <div class="corner top">
+                            <span class="number">7</span>
+                            <span>♦</span>
+                        </div>
+
+                        <span class="suit top_left">♦</span>
+                        <span class="suit top_right">♦</span>
+                        <span class="suit middle_left">♦</span>
+                        <span class="suit middle_top">♦</span>
+                        <span class="suit middle_right">♦</span>
+                        <span class="suit bottom_left">♦</span>
+                        <span class="suit bottom_right">♦</span>
+
+                        <div class="corner bottom">
+                            <span class="number">7</span>
+                            <span>♦</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="maincard">
+                <div class="maincard__item maincard__item--front front"></div>
+                <div class="maincard__item maincard__item--back back">
+                    <div class="card diamond eight">
+                        <div class="corner top">
+                            <span class="number">8</span>
+                            <span>♦</span>
+                        </div>
+
+                        <span class="suit top_left">♦</span>
+                        <span class="suit top_right">♦</span>
+                        <span class="suit middle_left">♦</span>
+                        <span class="suit middle_top">♦</span>
+                        <span class="suit middle_right">♦</span>
+                        <span class="suit middle_bottom">♦</span>
+                        <span class="suit bottom_left">♦</span>
+                        <span class="suit bottom_right">♦</span>
+
+                        <div class="corner bottom">
+                            <span class="number">8</span>
+                            <span>♦</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="maincard">
+                <div class="maincard__item maincard__item--front front"></div>
+                <div class="maincard__item maincard__item--back back">
+                    <div class="card diamond nine">
+                        <div class="corner top">
+                            <span class="number">9</span>
+                            <span>♦</span>
+                        </div>
+
+                        <span class="suit top_left">♦</span>
+                        <span class="suit top_right">♦</span>
+
+                        <span class="suit middle_top_left">♦</span>
+                        <span class="suit middle_center">♦</span>
+                        <span class="suit middle_top_right">♦</span>
+                        <span class="suit bottom_left">♦</span>
+                        <span class="suit bottom_right">♦</span>
+                        <span class="suit middle_bottom_left">♦</span>
+                        <span class="suit middle_bottom_right">♦</span>
+
+                        <div class="corner bottom">
+                            <span class="number">9</span>
+                            <span>♦</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="maincard">
+                <div class="maincard__item maincard__item--front front"></div>
+                <div class="maincard__item maincard__item--back back">
+                    <div class="card diamond ten">
+                        <div class="corner top">
+                            <span class="number">10</span>
+                            <span>♦</span>
+                        </div>
+
+                        <span class="suit top_left">♦</span>
+                        <span class="suit top_right">♦</span>
+
+                        <span class="suit middle_top_left">♦</span>
+                        <span class="suit middle_top_center">♦</span>
+                        <span class="suit middle_top_right">♦</span>
+                        <span class="suit bottom_left">♦</span>
+                        <span class="suit bottom_right">♦</span>
+                        <span class="suit middle_bottom_center">♦</span>
+                        <span class="suit middle_bottom_left">♦</span>
+                        <span class="suit middle_bottom_right">♦</span>
+
+                        <div class="corner bottom">
+                            <span class="number">10</span>
+                            <span>♦</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="maincard">
+                <div class="maincard__item maincard__item--front front"></div>
+                <div class="maincard__item maincard__item--back back">
+                    <div class="card diamond jack">
+                        <div class="corner top">
+                            <span class="number">J</span>
+                            <span>♦</span>
+                        </div>
+
+                        <span class="suit middle_center">♦</span>
+
+                        <div class="corner bottom">
+                            <span class="number">J</span>
+                            <span>♦</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="maincard">
+                <div class="maincard__item maincard__item--front front"></div>
+                <div class="maincard__item maincard__item--back back">
+                    <div class="card diamond queen">
+                        <div class="corner top">
+                            <span class="number">Q</span>
+                            <span>♦</span>
+                        </div>
+
+                        <span class="suit middle_center">♦</span>
+
+                        <div class="corner bottom">
+                            <span class="number">Q</span>
+                            <span>♦</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="maincard">
+                <div class="maincard__item maincard__item--front front"></div>
+                <div class="maincard__item maincard__item--back back">
+                    <div class="card diamond king">
+                        <div class="corner top">
+                            <span class="number">K</span>
+                            <span>♦</span>
+                        </div>
+
+                        <span class="suit middle_center">♦</span>
+
+                        <div class="corner bottom">
+                            <span class="number">K</span>
+                            <span>♦</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="maincard">
+                <div class="maincard__item maincard__item--front front"></div>
+                <div class="maincard__item maincard__item--back back">
+                    <div class="card diamond ace">
+                        <div class="corner top">
+                            <span class="number">A</span>
+                            <span>♦</span>
+                        </div>
+
+                        <span class="suit middle_center">♦</span>
+
+                        <div class="corner bottom">
+                            <span class="number">A</span>
+                            <span>♦</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="maincard">
+                <div class="maincard__item maincard__item--front front"></div>
+                <div class="maincard__item maincard__item--back back">
+                    <div class="card six">
+                        <div class="corner top">
+                            <span class="number">6</span>
+                            <span>♠</span>
+                        </div>
+
+                        <span class="suit top_left">♠</span>
+                        <span class="suit top_right">♠</span>
+                        <span class="suit middle_left">♠</span>
+                        <span class="suit middle_right">♠</span>
+                        <span class="suit bottom_left">♠</span>
+                        <span class="suit bottom_right">♠</span>
+
+                        <div class="corner bottom">
+                            <span class="number">6</span>
+                            <span>♠</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="maincard">
+                <div class="maincard__item maincard__item--front front"></div>
+                <div class="maincard__item maincard__item--back back">
+                    <div class="card seven">
+                        <div class="corner top">
+                            <span class="number">7</span>
+                            <span>♠</span>
+                        </div>
+
+                        <span class="suit top_left">♠</span>
+                        <span class="suit top_right">♠</span>
+                        <span class="suit middle_left">♠</span>
+                        <span class="suit middle_top">♠</span>
+                        <span class="suit middle_right">♠</span>
+                        <span class="suit bottom_left">♠</span>
+                        <span class="suit bottom_right">♠</span>
+
+                        <div class="corner bottom">
+                            <span class="number">7</span>
+                            <span>♠</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="maincard">
+                <div class="maincard__item maincard__item--front front"></div>
+                <div class="maincard__item maincard__item--back back">
+                    <div class="card eight">
+                        <div class="corner top">
+                            <span class="number">8</span>
+                            <span>♠</span>
+                        </div>
+
+                        <span class="suit top_left">♠</span>
+                        <span class="suit top_right">♠</span>
+                        <span class="suit middle_left">♠</span>
+                        <span class="suit middle_top">♠</span>
+                        <span class="suit middle_right">♠</span>
+                        <span class="suit middle_bottom">♠</span>
+                        <span class="suit bottom_left">♠</span>
+                        <span class="suit bottom_right">♠</span>
+
+                        <div class="corner bottom">
+                            <span class="number">8</span>
+                            <span>♠</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="maincard">
+                <div class="maincard__item maincard__item--front front"></div>
+                <div class="maincard__item maincard__item--back back">
+                    <div class="card nine">
+                        <div class="corner top">
+                            <span class="number">9</span>
+                            <span>♠</span>
+                        </div>
+
+                        <span class="suit top_left">♠</span>
+                        <span class="suit top_right">♠</span>
+
+                        <span class="suit middle_top_left">♠</span>
+                        <span class="suit middle_center">♠</span>
+                        <span class="suit middle_top_right">♠</span>
+                        <span class="suit bottom_left">♠</span>
+                        <span class="suit bottom_right">♠</span>
+                        <span class="suit middle_bottom_left">♠</span>
+                        <span class="suit middle_bottom_right">♠</span>
+
+                        <div class="corner bottom">
+                            <span class="number">9</span>
+                            <span>♠</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="maincard">
+                <div class="maincard__item maincard__item--front front"></div>
+                <div class="maincard__item maincard__item--back back">
+                    <div class="card ten">
+                        <div class="corner top">
+                            <span class="number">10</span>
+                            <span>♠</span>
+                        </div>
+
+                        <span class="suit top_left">♠</span>
+                        <span class="suit top_right">♠</span>
+
+                        <span class="suit middle_top_left">♠</span>
+                        <span class="suit middle_top_center">♠</span>
+                        <span class="suit middle_top_right">♠</span>
+                        <span class="suit bottom_left">♠</span>
+                        <span class="suit bottom_right">♠</span>
+                        <span class="suit middle_bottom_center">♠</span>
+                        <span class="suit middle_bottom_left">♠</span>
+                        <span class="suit middle_bottom_right">♠</span>
+
+                        <div class="corner bottom">
+                            <span class="number">10</span>
+                            <span>♠</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="maincard">
+                <div class="maincard__item maincard__item--front front"></div>
+                <div class="maincard__item maincard__item--back back">
+                    <div class="card jack">
+                        <div class="corner top">
+                            <span class="number">J</span>
+                            <span>♠</span>
+                        </div>
+
+                        <span class="suit middle_center">♠</span>
+
+                        <div class="corner bottom">
+                            <span class="number">J</span>
+                            <span>♠</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="maincard">
+                <div class="maincard__item maincard__item--front front"></div>
+                <div class="maincard__item maincard__item--back back">
+                    <div class="card queen">
+                        <div class="corner top">
+                            <span class="number">Q</span>
+                            <span>♠</span>
+                        </div>
+
+                        <span class="suit middle_center">♠</span>
+
+                        <div class="corner bottom">
+                            <span class="number">Q</span>
+                            <span>♠</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="maincard">
+                <div class="maincard__item maincard__item--front front"></div>
+                <div class="maincard__item maincard__item--back back">
+                    <div class="card king">
+                        <div class="corner top">
+                            <span class="number">K</span>
+                            <span>♠</span>
+                        </div>
+
+                        <span class="suit middle_center">♠</span>
+
+                        <div class="corner bottom">
+                            <span class="number">K</span>
+                            <span>♠</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="maincard">
+                <div class="maincard__item maincard__item--front front"></div>
+                <div class="maincard__item maincard__item--back back">
+                    <div class="card ace">
+                        <div class="corner top">
+                            <span class="number">A</span>
+                            <span>♠</span>
+                        </div>
+
+                        <span class="suit middle_center">♠</span>
+
+                        <div class="corner bottom">
+                            <span class="number">A</span>
+                            <span>♠</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="maincard">
+                <div class="maincard__item maincard__item--front front"></div>
+                <div class="maincard__item maincard__item--back back">
+                    <div class="card heart six">
+                        <div class="corner top">
+                            <span class="number">6</span>
+                            <span>♥</span>
+                        </div>
+
+                        <span class="suit top_left">♥</span>
+                        <span class="suit top_right">♥</span>
+                        <span class="suit middle_left">♥</span>
+                        <span class="suit middle_right">♥</span>
+                        <span class="suit bottom_left">♥</span>
+                        <span class="suit bottom_right">♥</span>
+
+                        <div class="corner bottom">
+                            <span class="number">6</span>
+                            <span>♥</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="maincard">
+                <div class="maincard__item maincard__item--front front"></div>
+                <div class="maincard__item maincard__item--back back">
+                    <div class="card heart seven">
+                        <div class="corner top">
+                            <span class="number">7</span>
+                            <span>♥</span>
+                        </div>
+
+                        <span class="suit top_left">♥</span>
+                        <span class="suit top_right">♥</span>
+                        <span class="suit middle_left">♥</span>
+                        <span class="suit middle_top">♥</span>
+                        <span class="suit middle_right">♥</span>
+                        <span class="suit bottom_left">♥</span>
+                        <span class="suit bottom_right">♥</span>
+
+                        <div class="corner bottom">
+                            <span class="number">7</span>
+                            <span>♥</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="maincard">
+                <div class="maincard__item maincard__item--front front"></div>
+                <div class="maincard__item maincard__item--back back">
+                    <div class="card heart eight">
+                        <div class="corner top">
+                            <span class="number">8</span>
+                            <span>♥</span>
+                        </div>
+
+                        <span class="suit top_left">♥</span>
+                        <span class="suit top_right">♥</span>
+                        <span class="suit middle_left">♥</span>
+                        <span class="suit middle_top">♥</span>
+                        <span class="suit middle_right">♥</span>
+                        <span class="suit middle_bottom">♥</span>
+                        <span class="suit bottom_left">♥</span>
+                        <span class="suit bottom_right">♥</span>
+
+                        <div class="corner bottom">
+                            <span class="number">8</span>
+                            <span>♥</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="maincard">
+                <div class="maincard__item maincard__item--front front"></div>
+                <div class="maincard__item maincard__item--back back">
+                    <div class="card heart nine">
+                        <div class="corner top">
+                            <span class="number">9</span>
+                            <span>♥</span>
+                        </div>
+
+                        <span class="suit top_left">♥</span>
+                        <span class="suit top_right">♥</span>
+
+                        <span class="suit middle_top_left">♥</span>
+                        <span class="suit middle_center">♥</span>
+                        <span class="suit middle_top_right">♥</span>
+                        <span class="suit bottom_left">♥</span>
+                        <span class="suit bottom_right">♥</span>
+                        <span class="suit middle_bottom_left">♥</span>
+                        <span class="suit middle_bottom_right">♥</span>
+
+                        <div class="corner bottom">
+                            <span class="number">9</span>
+                            <span>♥</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="maincard">
+                <div class="maincard__item maincard__item--front front"></div>
+                <div class="maincard__item maincard__item--back back">
+                    <div class="card heart ten">
+                        <div class="corner top">
+                            <span class="number">10</span>
+                            <span>♥</span>
+                        </div>
+
+                        <span class="suit top_left">♥</span>
+                        <span class="suit top_right">♥</span>
+
+                        <span class="suit middle_top_left">♥</span>
+                        <span class="suit middle_top_center">♥</span>
+                        <span class="suit middle_top_right">♥</span>
+                        <span class="suit bottom_left">♥</span>
+                        <span class="suit bottom_right">♥</span>
+                        <span class="suit middle_bottom_center">♥</span>
+                        <span class="suit middle_bottom_left">♥</span>
+                        <span class="suit middle_bottom_right">♥</span>
+
+                        <div class="corner bottom">
+                            <span class="number">10</span>
+                            <span>♥</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="maincard">
+                <div class="maincard__item maincard__item--front front"></div>
+                <div class="maincard__item maincard__item--back back">
+                    <div class="card heart jack">
+                        <div class="corner top">
+                            <span class="number">J</span>
+                            <span>♥</span>
+                        </div>
+
+                        <span class="suit middle_center">♥</span>
+
+                        <div class="corner bottom">
+                            <span class="number">J</span>
+                            <span>♥</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="maincard">
+                <div class="maincard__item maincard__item--front front"></div>
+                <div class="maincard__item maincard__item--back back">
+                    <div class="card heart queen">
+                        <div class="corner top">
+                            <span class="number">Q</span>
+                            <span>♥</span>
+                        </div>
+
+                        <span class="suit middle_center">♥</span>
+
+                        <div class="corner bottom">
+                            <span class="number">Q</span>
+                            <span>♥</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="maincard">
+                <div class="maincard__item maincard__item--front front"></div>
+                <div class="maincard__item maincard__item--back back">
+                    <div class="card heart king">
+                        <div class="corner top">
+                            <span class="number">K</span>
+                            <span>♥</span>
+                        </div>
+
+                        <span class="suit middle_center">♥</span>
+
+                        <div class="corner bottom">
+                            <span class="number">K</span>
+                            <span>♥</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="maincard">
+                <div class="maincard__item maincard__item--front front"></div>
+                <div class="maincard__item maincard__item--back back">
+                    <div class="card heart ace">
+                        <div class="corner top">
+                            <span class="number">A</span>
+                            <span>♥</span>
+                        </div>
+
+                        <span class="suit middle_center">♥</span>
+
+                        <div class="corner bottom">
+                            <span class="number">A</span>
+                            <span>♥</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div><!-- #cards -->
+    </body>
+</html>
